@@ -72,6 +72,11 @@ class KratosIdentity implements KratosIdentityContract, Authenticatable, Arrayab
         throw new BadMethodCallException('Unexpected method ['.__FUNCTION__.'] call');
     }
 
+    public function getAuthPasswordName()
+    {
+        throw new BadMethodCallException('Unexpected method ['.__FUNCTION__.'] call');
+    }
+
     public function getRememberToken()
     {
         throw new BadMethodCallException('Unexpected method ['.__FUNCTION__.'] call');

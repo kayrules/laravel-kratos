@@ -53,4 +53,9 @@ class IdentityUserProvider implements UserProvider
     {
         throw new BadMethodCallException('Unexpected method ['.__FUNCTION__.'] call');
     }
+
+    public function rehashPasswordIfRequired(Authenticatable $user, array $credentials, bool $force = false): void
+    {
+        throw new BadMethodCallException('Unexpected method ['.__FUNCTION__.'] call');
+    }
 }
